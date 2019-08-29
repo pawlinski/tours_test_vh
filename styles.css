@@ -361,6 +361,12 @@ footer {
     }
 }
 
+@media screen and (max-width: 469px) {
+    .hero {
+        min-height: 45rem;
+    }
+}
+
 @media screen and (min-width: 470px) {
     .hero::before {
         height: 9.4rem;
@@ -444,7 +450,7 @@ footer {
     }
 
     .hero {
-        height: 80vh;
+        height: 60vmax;
     }
 
     .main-message {
@@ -478,6 +484,6 @@ footer {
 
 @media screen and (min-width: 1200px) {
     .hero {
-        height: 75vh;
+        height: 40vmax;
     }
 }
